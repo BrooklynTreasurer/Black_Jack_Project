@@ -1,4 +1,7 @@
 //Black jack game(player's cards sum)
+const messageEl = document.getElementById("message-el");
+const sumEl = document.getElementById("sum-el");
+const cardsEl = document.getElementById("cards-el");
 let firstCard = Math.floor(Math.random() * 11) + 2;
 let secondCard = Math.floor(Math.random() * 11) + 2;
 let sum = firstCard + secondCard;
@@ -6,6 +9,10 @@ let hasBlackJack = false;
 let isAlive = true;
 let message = "";
 
+
+
+
+function startGame() {
 console.log("First Card: " + firstCard);
 console.log("Second Card: " + secondCard);
 console.log("Sum: " + sum);
@@ -42,3 +49,4 @@ function newCard() {
 };
         
         console.log(message);
+}
