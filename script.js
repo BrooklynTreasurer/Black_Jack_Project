@@ -2,32 +2,34 @@
 const messageEl = document.getElementById("message-el");
 const sumEl = document.getElementById("sum-el");
 const cardsEl = document.getElementById("cards-el");
-let firstCard = Math.floor(Math.random() * 11) + 2;
-let secondCard = Math.floor(Math.random() * 11) + 2;
-let sum = firstCard + secondCard;
 let hasBlackJack = false;
 let isAlive = true;
 let message = "";
 
 
-
-
+//start game function
 function startGame() {
+let firstCard = Math.floor(Math.random() * 11) + 2;
+let secondCard = Math.floor(Math.random() * 11) + 2;
+let sum = firstCard + secondCard;
+cardsEl.textContent = "Cards: " + firstCard + " " + secondCard;
+sumEl.textContent = "Sum: " + sum;
+
+//console log cards
 console.log("First Card: " + firstCard);
 console.log("Second Card: " + secondCard);
 console.log("Sum: " + sum);
+
+//check cards
 if (sum < 21) {
-    message = "Do you want to draw a new card?"
+    messageEl.textContent = "Do you want to draw a new card?"
 } else if (sum === 21) {
-    message = "Wohoo! You've got Blackjack!"
+    messageEl.textContent = "Wohoo! You've got Blackjack!"
     hasBlackJack = true;
 } else {
-    message = "You're out of the game!"
+    messageEl.textContent = "You're out of the game!"
     isAlive = false;
 }
-
-//cash out function
-console.log(message);
 
 //add new card function
 function newCard() {
