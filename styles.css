@@ -37,7 +37,7 @@ p {
     align-items: center;
     justify-content: center;
     margin-top: 50px;
-    gap: 380px;
+    gap: 280px;
 }
 
 #start-btn {
@@ -60,7 +60,7 @@ p {
 }
 
 #new-card-btn {
-    background-color: ;
+    background-color:  white;
     color: crimson;
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 20px;
@@ -72,5 +72,12 @@ p {
     transition: background-color 0.3s ease;
     margin-top: 20px;
     text-align: center;
-    margin-left: ;
+}
+
+@media screen and (max-width: 600px) {
+    .container-buttons {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
 }

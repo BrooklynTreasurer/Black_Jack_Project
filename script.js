@@ -13,6 +13,7 @@ function startGame() {
     firstCard = Math.floor(Math.random() * 11) + 2;
     secondCard = Math.floor(Math.random() * 11) + 2;
     sum = firstCard + secondCard;
+    isAlive = true;
 
     cardsEl.textContent = "Cards: " + firstCard + " " + secondCard;
     sumEl.textContent = "Sum: " + sum;
