@@ -14,6 +14,9 @@ function startGame() {
     secondCard = Math.floor(Math.random() * 11) + 2;
     sum = firstCard + secondCard;
     isAlive = true;
+    hasBlackJack = false;
+
+    // display initial cards and sum
 
     cardsEl.textContent = "Cards: " + firstCard + " " + secondCard;
     sumEl.textContent = "Sum: " + sum;
