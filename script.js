@@ -1,4 +1,6 @@
+// cards array with image sources and values
 const card = [
+    //clubs
     {src: "images/2_of_clubs.png", value: 2},
     {src: "images/3_of_clubs.png", value: 3},
     {src: "images/4_of_clubs.png", value: 4},
@@ -12,6 +14,48 @@ const card = [
     {src: "images/queen_of_clubs.png", value: 10},
     {src: "images/king_of_clubs.png", value: 10},
     {src: "images/ace_of_clubs.png", value: 11},
+    //hearts
+    {src: "images/2_of_hearts.png", value: 2},
+    {src: "images/3_of_hearts.png", value: 3},
+    {src: "images/4_of_hearts.png", value: 4},
+    {src: "images/5_of_hearts.png", value: 5},
+    {src: "images/6_of_hearts.png", value: 6},
+    {src: "images/7_of_hearts.png", value: 7},
+    {src: "images/8_of_hearts.png", value: 8},
+    {src: "images/9_of_hearts.png", value: 9},
+    {src: "images/10_of_hearts.png", value: 10},
+    {src: "images/jack_of_hearts.png", value: 10},
+    {src: "images/queen_of_hearts.png", value: 10},
+    {src: "images/king_of_hearts.png", value: 10},
+    {src: "images/ace_of_hearts.png", value: 11},
+    //spades
+    {src: "images/2_of_spades.png", value: 2},
+    {src: "images/3_of_spades.png", value: 3},
+    {src: "images/4_of_spades.png", value: 4},
+    {src: "images/5_of_spades.png", value: 5},
+    {src: "images/6_of_spades.png", value: 6},
+    {src: "images/7_of_spades.png", value: 7},
+    {src: "images/8_of_spades.png", value: 8},
+    {src: "images/9_of_spades.png", value: 9},
+    {src: "images/10_of_spades.png", value: 10},
+    {src: "images/jack_of_spades.png", value: 10},
+    {src: "images/queen_of_spades.png", value: 10},
+    {src: "images/king_of_spades.png", value: 10},
+    {src: "images/ace_of_spades.png", value: 11},
+    //diamonds
+    {src: "images/2_of_diamonds.png", value: 2},
+    {src: "images/3_of_diamonds.png", value: 3},
+    {src: "images/4_of_diamonds.png", value: 4},
+    {src: "images/5_of_diamonds.png", value: 5},
+    {src: "images/6_of_diamonds.png", value: 6},
+    {src: "images/7_of_diamonds.png", value: 7},
+    {src: "images/8_of_diamonds.png", value: 8},
+    {src: "images/9_of_diamonds.png", value: 9},
+    {src: "images/10_of_diamonds.png", value: 10},
+    {src: "images/jack_of_diamonds.png", value: 10},
+    {src: "images/queen_of_diamonds.png", value: 10},
+    {src: "images/king_of_diamonds.png", value: 10},
+    {src: "images/ace_of_diamonds.png", value: 11}   
 ]
 
 
