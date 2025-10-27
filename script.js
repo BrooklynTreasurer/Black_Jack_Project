@@ -75,6 +75,8 @@ function getRandomCard() {
 
 // start game
 function startGame() {
+    hasBlackJack = false;
+    isAlive = true;
     playerCards = [getRandomCard(), getRandomCard()];
     sum = playerCards[0].value + playerCards[1].value;
     renderGame();
